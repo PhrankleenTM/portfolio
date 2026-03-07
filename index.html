@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio | PhrankleenTM</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="sidebar">
+          <li onclick="hideSidebar()">
+            <a href="#"><i class="fa-solid fa-x"></i></a>
+          </li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Work</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Socials</a></li>
+        </ul>
+        <ul>
+          <li><a href="#" class="logo">PhrankleenTM</a></li>
+          <li id="home" class="hideOnMobile"><a href="#">Home</a></li>
+          <li id="about" class="hideOnMobile"><a href="#">About</a></li>
+          <li id="services" class="hideOnMobile"><a href="#">Services</a></li>
+          <li id="work" class="hideOnMobile"><a href="#">Work</a></li>
+          <li id="contact" class="hideOnMobile"><a href="#">Contact</a></li>
+          <li id="socials" class="hideOnMobile"><a href="#">Socials</a></li>
+          <li onclick="showSidebar()" class="menu-button">
+            <a href="#"><i class="fa-solid fa-bars"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="center" id="main">
+        <div class="avatar-container">
+          <img
+            src="https://images.pexels.com/photos/29527848/pexels-photo-29527848.jpeg"
+            alt="ferrari"
+          />
+        </div>
+        <p class="frank">Hi! I'm Franklyn Eziofor</p>
+        <h3>Frontend Web Developer Based in Nigeria.</h3>
+        <p class="experience">
+          I am a frontend developer from Awka, Anambra State, Nigeria with 2
+          years of experience in solo projects for now.
+        </p>
+        <div class="buttons">
+          <button type="submit" class="contact-me">
+            Contact Me <i class="fa-solid fa-arrow-right"></i>
+          </button>
+          <button type="submit" class="resume">
+            My Resume <i class="fa-solid fa-download"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="introduction" id="introduction">
+        <h2>About Me</h2>
+        <!-- Explanation is the class for both the image and the writeup beside it -->
+        <div class="explanation">
+          <img
+            src="https://images.pexels.com/photos/29527848/pexels-photo-29527848.jpeg"
+            alt="Ferrari"
+          />
+          <!--   skills is the class for the writeup and the skills below. this is so that i can flex them individually -->
+          <div class="skills">
+            <p>
+              I am an experienced Frontend Developer with entry level of
+              professional expertise in the field. I hope to get the opportunity
+              to grow and hone my craft.
+            </p>
+            <div class="cards">
+              <div class="languages card all-cards">
+                <i class="fa-solid fa-code social-icons"></i>
+                <h2>Languages</h2>
+                <p>HTML, CSS, JavaScript, React JS, Next JS</p>
+              </div>
+              <div class="education card all-cards">
+                <i class="fa-solid fa-graduation-cap social-icons"></i>
+                <h2>Education</h2>
+                <p>B.Sc in Physics</p>
+              </div>
+              <div class="projects card all-cards">
+                <i class="fa-solid fa-suitcase social-icons"></i>
+                <h2>Projects</h2>
+                <p>Built more than 5 mock projects</p>
+              </div>
+            </div>
+            <div class="tools">
+              <p>Tools I Use</p>
+              <div class="list">
+                <img src="/images/vscode.png" alt="VS Code Logo" />
+                <img src="/images/MongoDB.png" alt="MongoDB icon" />
+                <img src="/images/figma.png" alt="Figma Logo" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="services" id="service-tab">
+        <h2>My Services</h2>
+        <p>
+          I am a frontend developer from Awka, Anambra State, Nigeria, with
+          entry level experience.
+        </p>
+        <div class="service-cards">
+          <div class="web-design service-card">
+            <i class="fa-solid fa-globe service-icons"></i>
+            <h2>Web Design</h2>
+            <p class="service-p">
+              Web development is the process of building, programming...
+            </p>
+            <p>Read More <i class="fa-solid fa-arrow-right"></i></p>
+          </div>
+          <div class="mobile-app service-card">
+            <i class="fa-brands fa-app-store-ios service-icons"></i>
+            <h2>Mobile App</h2>
+            <p class="service-p">
+              Web development is the process of building, programming...
+            </p>
+            <p>Read More <i class="fa-solid fa-arrow-right"></i></p>
+          </div>
+          <div class="ui/ux-design service-card">
+            <i class="fa-brands fa-behance service-icons"></i>
+            <h2>UI/UX Design</h2>
+            <p class="service-p">
+              Web development is the process of building, programming...
+            </p>
+            <p>Read More <i class="fa-solid fa-arrow-right"></i></p>
+          </div>
+          <div class="graphic-design service-card">
+            <i class="fa-solid fa-image service-icons"></i>
+            <h2>Graphics Design</h2>
+            <p class="service-p">
+              Web development is the process of building, programming...
+            </p>
+            <p>Read More <i class="fa-solid fa-arrow-right"></i></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio" id="portfolio">
+        <h2>My Latest Work</h2>
+        <p>
+          Welcome to my development portfolio! Explore a collection of projects
+          showcasing my expertise in front-end development.
+        </p>
+
+        <div class="portfolio-cards">
+          <div class="frontend-project portfolio-card">
+            <div class="inside-card">
+              <div class="writing">
+                <p class="inside-p">Frontend Project</p>
+                <p>Web Design</p>
+              </div>
+              <i class="fa-solid fa-location-arrow inside-icon"></i>
+            </div>
+          </div>
+          <div class="geo-based-app portfolio-card">
+            <div class="inside-card">
+              <div class="writing">
+                <p class="inside-p">Geo-Based App</p>
+                <p>Mobile App</p>
+              </div>
+              <i class="fa-solid fa-location-arrow inside-icon"></i>
+            </div>
+          </div>
+          <div class="photography-site portfolio-card">
+            <div class="inside-card">
+              <div class="writing">
+                <p class="inside-p">Photography Site</p>
+                <p>Web Design</p>
+              </div>
+              <i class="fa-solid fa-location-arrow inside-icon"></i>
+            </div>
+          </div>
+          <div class="ui portfolio-card">
+            <div class="inside-card">
+              <div class="writing">
+                <p class="inside-p">UI/UX Designing</p>
+                <p>UI/UX Design</p>
+              </div>
+              <i class="fa-solid fa-location-arrow inside-icon"></i>
+            </div>
+          </div>
+        </div>
+
+        <button type="submit">
+          Show More <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+
+      <div class="connect" id="connect">
+        <h2>Get in touch</h2>
+        <p>
+          I'd love to hear from you! If you have questions, comments or
+          feedback,
+        </p>
+
+        <div class="form">
+          <div class="name-email">
+            <input type="text" name="" id="" placeholder="Enter Your Name" />
+            <input type="email" name="" id="" placeholder="Enter Your Email" />
+          </div>
+          <div class="message">
+            <textarea
+              class="input-message"
+              placeholder="Enter your message"
+              name=""
+              id=""
+            ></textarea>
+          </div>
+
+          <button type="submit">
+            Submit Now <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer">
+      <div class="contact-footer">
+        <i class="fa-regular fa-envelope"></i>
+        <p>contact@phrankleen.com</p>
+      </div>
+
+      <div class="socials-footer">
+        <ul>
+          <li>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          </li>
+        </ul>
+
+        <p>
+          Ⓒ 2026 Phrankleen | Distributed by ThemeWagon | All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
