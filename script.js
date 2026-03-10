@@ -4,6 +4,13 @@ const services = document.getElementById("services");
 const work = document.getElementById("work");
 const contact = document.getElementById("contact");
 const socials = document.getElementById("socials");
+const homeBar = document.getElementById("home-tab");
+const aboutBar = document.getElementById("about-tab");
+const servicesBar = document.getElementById("services-tab");
+const workBar = document.getElementById("work-tab");
+const contactBar = document.getElementById("contact-tab");
+const socialsBar = document.getElementById("socials-tab");
+const resumeBtn = document.getElementById("resume");
 
 const main = document.getElementById("main");
 const introduction = document.getElementById("introduction");
@@ -59,6 +66,68 @@ socials.addEventListener("click", function (e) {
     // block: "start",
   });
 });
+
+homeBar.addEventListener("click", function (e) {
+  e.preventDefault();
+  main.scrollIntoView({
+    behavior: "smooth",
+    // block: "start",
+  });
+  hideSidebar();
+});
+
+aboutBar.addEventListener("click", function (e) {
+  e.preventDefault();
+  introduction.scrollIntoView({
+    behavior: "smooth",
+    // block: "start",
+  });
+  hideSidebar();
+});
+
+servicesBar.addEventListener("click", function (e) {
+  e.preventDefault();
+  serviceTab.scrollIntoView({
+    behavior: "smooth",
+    // block: "start",
+  });
+  hideSidebar();
+});
+
+workBar.addEventListener("click", function (e) {
+  e.preventDefault();
+  portfolio.scrollIntoView({
+    behavior: "smooth",
+    // block: "start",
+  });
+  hideSidebar();
+});
+
+contactBar.addEventListener("click", function (e) {
+  e.preventDefault();
+  connect.scrollIntoView({
+    behavior: "smooth",
+    // block: "start",
+  });
+  hideSidebar();
+});
+
+socialsBar.addEventListener("click", function (e) {
+  e.preventDefault();
+  footer.scrollIntoView({
+    behavior: "smooth",
+    // block: "start",
+  });
+  hideSidebar();
+});
+
+resumeBtn.addEventListener("click", function () {
+  downloadPDF();
+});
+
+function downloadPDF() {
+  window.location.href = "myfiles/"
+}
 
 function showSidebar() {
   const sidebar = document.querySelector(".sidebar");
