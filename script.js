@@ -126,7 +126,7 @@ resumeBtn.addEventListener("click", function () {
 });
 
 function downloadPDF() {
-  window.location.href = "myfiles/"
+  window.location.href = "myfiles/FRANKLYN EZIOFOR CV.pdf";
 }
 
 function showSidebar() {
