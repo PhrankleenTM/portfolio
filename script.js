@@ -11,6 +11,7 @@ const workBar = document.getElementById("work-tab");
 const contactBar = document.getElementById("contact-tab");
 const socialsBar = document.getElementById("socials-tab");
 const resumeBtn = document.getElementById("resume");
+const contactBtn = document.getElementById("contact-me");
 
 const main = document.getElementById("main");
 const introduction = document.getElementById("introduction");
@@ -123,6 +124,15 @@ socialsBar.addEventListener("click", function (e) {
 
 resumeBtn.addEventListener("click", function () {
   downloadPDF();
+});
+
+contactBtn.addEventListener("click", function (e) {
+  e.preventDefault();
+  connect.scrollIntoView({
+    behavior: "smooth",
+    // block: "start",
+  });
+  hideSidebar();
 });
 
 function downloadPDF() {
