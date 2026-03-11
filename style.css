@@ -150,6 +150,12 @@ nav img {
   padding: 10px;
   border-radius: 35px;
   width: 150px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.buttons .contact-me:hover {
+  transform: scale(1.1);
 }
 
 .buttons .resume {
@@ -157,6 +163,12 @@ nav img {
   border: 1px solid gray;
   width: 150px;
   border-radius: 35px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.buttons .resume:hover {
+  transform: scale(1.1);
 }
 
 .introduction {
@@ -166,7 +178,7 @@ nav img {
   align-items: center;
   color: white;
   margin: 20px;
-  padding-top: 100px;
+  padding-top: 60px;
 }
 
 .introduction h2 {
@@ -228,6 +240,11 @@ nav img {
   width: 200px;
   height: 200px;
   border-radius: 10px;
+  transition: transform 0.4s ease-in-out;
+}
+
+.introduction .skills .cards .all-cards:hover {
+  transform: scale(1.1);
 }
 
 .introduction .skills .cards .all-cards .social-icons {
@@ -274,7 +291,7 @@ nav img {
   align-items: center;
   color: white;
   margin: 30px;
-  padding-top: 100px;
+  padding-top: 70px;
 }
 
 .services h2 {
@@ -308,6 +325,11 @@ nav img {
   margin-top: 20px;
   width: 300px;
   height: 200px;
+  transition: transform 0.4s ease;
+}
+
+.services .service-cards .service-card:hover {
+  transform: scale(0.85);
 }
 
 .services .service-cards .service-card .service-icons {
@@ -330,7 +352,7 @@ nav img {
   align-items: center;
   color: white;
   margin: 20px;
-  padding-top: 100px;
+  padding-top: 70px;
 }
 
 .portfolio h2 {
@@ -376,6 +398,12 @@ nav img {
   background-color: white;
   color: #070425;
   border-radius: 8px;
+  transition: transform 0.4s ease-in-out;
+}
+
+.portfolio .portfolio-cards .portfolio-card .inside-card:hover {
+  transform: scale(1.25);
+  cursor: pointer;
 }
 
 .portfolio .portfolio-cards .portfolio-card .inside-card .inside-icon {
@@ -399,6 +427,12 @@ nav img {
   padding: 10px;
   width: 150px;
   border-radius: 20px;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.portfolio button:hover {
+  transform: scale(1.1);
 }
 
 .frontend-project {
@@ -431,7 +465,7 @@ nav img {
   justify-content: center;
   align-items: center;
   color: white;
-  padding-top: 100px;
+  padding-top: 70px;
   margin: 20px;
 }
 
@@ -495,6 +529,11 @@ nav img {
   width: 150px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.connect button:hover {
+  transform: scale(1.1);
 }
 
 footer {
