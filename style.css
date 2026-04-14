@@ -1,3 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --color-primary: #7380ec;
+  --color-danger: #ff7782;
+  --color-success: #41f1b6;
+  --color-warning: #ffbb55;
+  --color-white: #fff;
+  --color-info-dark: #7d8da1;
+  --color-info-light: #dce1eb;
+  --color-dark: #363949;
+  --color-light: rgba(132, 139, 200, 0.18);
+  --color-primary-variant: #111e88;
+  --color-dark-variant: #677483;
+  --color-background: #f6f6f9;
+
+  --card-border-radius: 2rem;
+  --border-radius-1: 0.4rem;
+  --borderradius-2: 0.8rem;
+  --border-radius-3: 1.2rem;
+
+  --card-padding: 1.8rem;
+  --padding-1: 1.2rem --box-shadow: 0 2rem 3rem var(var(--color-light));
+  --box-shadow: 0 2rem 3rem var(--color-light);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -6,7 +32,7 @@ body {
   height: 100vh;
   padding: 0;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: poppins, sans-serif;
   background-color: #1e1c36;
 }
 
@@ -120,19 +146,19 @@ nav img {
 }
 
 .center .frank {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: poppins, sans-serif;
   font-size: 20px;
   margin: 15px;
 }
 
 .center h3 {
   font-size: 40px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: poppins, sans-serif;
   margin-bottom: 10px;
 }
 
 .center .experience {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: poppins, sans-serif;
   font-size: 15px;
   margin-bottom: 10px;
 }
@@ -142,7 +168,7 @@ nav img {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: poppins, sans-serif;
   margin: 20px;
 }
 
@@ -184,7 +210,7 @@ nav img {
 
 .introduction h2 {
   font-size: 40px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: poppins, sans-serif;
   margin: 20px;
 }
 
@@ -212,7 +238,7 @@ nav img {
 
 .introduction .skills p {
   font-size: 15px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: poppins, sans-serif;
 }
 
 .introduction .skills .cards {
@@ -228,7 +254,7 @@ nav img {
   font-size: 15px;
   margin: 10px;
   font-weight: 700;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: poppins, sans-serif;
 }
 
 .introduction .skills .cards .all-cards {
@@ -254,7 +280,7 @@ nav img {
 
 .introduction .skills .cards .all-cards p {
   color: gray;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: poppins, sans-serif;
 }
 
 .introduction .skills .tools {
@@ -266,7 +292,7 @@ nav img {
 
 .introduction .skills .tools p {
   font-size: 15px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: poppins, sans-serif;
   color: gray;
 }
 
@@ -297,13 +323,13 @@ nav img {
 
 .services h2 {
   font-size: 35px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: poppins, sans-serif;
   margin: 20px;
 }
 
 .services p {
   font-size: 15px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: poppins, sans-serif;
 }
 
 .services .service-cards {
@@ -358,13 +384,13 @@ nav img {
 
 .portfolio h2 {
   font-size: 35px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: poppins, sans-serif;
   margin: 20px;
 }
 
 .portfolio p {
   font-size: 15px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: poppins, sans-serif;
 }
 
 .portfolio .portfolio-cards {
@@ -472,13 +498,13 @@ nav img {
 
 .connect h2 {
   font-size: 35px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: poppins, sans-serif;
   margin: 20px;
 }
 
 .connect p {
   font-size: 15px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: poppins, sans-serif;
   margin-bottom: 40px;
 }
 
@@ -528,7 +554,7 @@ nav img {
   padding: 15px;
   border-radius: 30px;
   width: 150px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: poppins, sans-serif;
   cursor: pointer;
   transition: transform 0.2s ease;
 }
@@ -552,14 +578,14 @@ footer .contact-footer {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: poppins, sans-serif;
   font-size: 15px;
   font-weight: 800;
   margin-bottom: 20px;
 }
 
 footer .socials-footer p {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: poppins, sans-serif;
   font-size: 12px;
   font-weight: 300;
   margin-bottom: 20px;
@@ -576,4 +602,82 @@ footer .socials-footer ul {
   gap: 20px;
   font-size: 25px;
   padding-bottom: 20px;
+}
+
+/* ========== LANDING PAGES ========== */
+
+header nav ul .back {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.container {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 10rem;
+}
+
+.container .landingPage {
+  background-color: white;
+  color: black;
+  padding: 2rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  width: 40%;
+  height: 250px;
+}
+
+.container .landingPage .landing-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 8rem 0 0 0;
+  background-color: #1e1c36;
+  color: white;
+  padding: 0.5rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  transition: transform 0.4s ease-in-out;
+}
+
+.container .landingPage .landing-card:hover {
+  transform: scale(1.30);
+  cursor: pointer;
+}
+
+.container .landingPage .landing-card .inside-icon {
+  background-color: white;
+  border: 1px solid #1e1c36;
+  color: #1e1c36;
+  border-radius: 50%;
+  padding: 0.8rem;
+}
+
+.container .landingPage .landing-card .writing p {
+  font-family: poppins, sans-serif;
+}
+
+.container .landingPage-one {
+  background-image: url(./images/Landing\ Page\ 1\ image.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container .landingPage-two {
+  background-image: url(./images/landing\ Page\ 2\ image.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container .landingPage-three {
+  background-image: url(./images/Landing\ Page\ 3\ image.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
