@@ -136,7 +136,8 @@ contactBtn.addEventListener("click", function (e) {
 });
 
 function downloadPDF() {
-  window.location.href = "myfiles/FRANKLYN EZIOFOR MAIN CV.pdf";
+  window.location.href =
+    "myfiles/EZIOFOR FRANKLYN OKECHUKWU CV - WEB DEVELOPMENT.pdf";
 }
 
 function showSidebar() {
